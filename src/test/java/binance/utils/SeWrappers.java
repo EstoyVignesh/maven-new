@@ -221,12 +221,12 @@ public class SeWrappers {
 		{
 			element.clear();
 			element.sendKeys(text);
-			//Reports.reportStep("PASS","Typed the text "+text+" successfully");
+			Reports.reportStep("PASS","Typed the text "+text+" successfully");
 
 		}
 		catch(Exception ex)
 		{
-			//Reports.reportStep("FAIL","Problem whle typing the "+text);
+			Reports.reportStep("FAIL","Problem whle typing the "+text);
 
 			ex.printStackTrace();
 		}
@@ -273,12 +273,12 @@ public class SeWrappers {
 		try
 		{
 			ele.click();
-			//Reports.reportStep("PASS","Successfully clicked the element");
+			Reports.reportStep("PASS","Successfully clicked the element");
 
 		}
 		catch(Exception ex)
 		{
-			//Reports.reportStep("FAIL","Problem while clicking the element");
+			Reports.reportStep("FAIL","Problem while clicking the element");
 
 			ex.printStackTrace();
 		}

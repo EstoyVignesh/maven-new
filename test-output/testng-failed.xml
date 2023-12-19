@@ -9,7 +9,7 @@
         <methods>
           <include name="signUp"/>
           <include name="signUP1"/>
-          <include name="signupTest"/>
+          <include name="signupTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- coursera.tests.SignupTest1 -->
     </classes>
